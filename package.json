@@ -6,16 +6,23 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
   },
   "dependencies": {
     "expo": "~48.0.4",
     "expo-status-bar": "~1.4.4",
+    "jest-expo": "^48.0.1",
     "react": "18.2.0",
-    "react-native": "0.71.3"
+    "react-native": "0.71.3",
+    "ts-jest": "^29.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "@types/jest": "^29.4.0",
     "@types/react": "~18.0.14",
     "typescript": "^4.9.4"
   },
